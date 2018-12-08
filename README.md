@@ -1,3 +1,16 @@
+<h1>Building a new Engage Ideas Site</h1>
+<p>Done so far:
+<ul>
+<li>Added support for markdown pages and slugs in src/pages</li>
+<li>Added SASS Plugin</li>
+</ul></p>
+<p>To Do:
+<ul>
+<li>Move blog pages to a blog subfolder</li>
+<li>Work on layout & component concepts</li>
+</ul></p>
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
