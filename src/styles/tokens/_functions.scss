@@ -1,0 +1,73 @@
+@import "tokens";
+
+@function color($color) {
+    @if map-has-key($colorMap, $color) {
+        @return map-get($colorMap, $color);
+    } @else {
+        @error "Invalid value passed to SASS fontSize function: `#{$color}`. Valid sizes: `#{map-keys($colorMap)}`";
+    }
+}
+
+@function fontSize($fontSize) {
+    @if map-has-key($fontSizeMap, $fontSize) {
+        @return map-get($fontSizeMap, $fontSize);
+    } @else {
+        @error "Invalid value passed to SASS fontSize function: `#{$fontSize}`. Valid sizes: `#{map-keys($fontSizeMap)}`";
+    }
+}
+
+@function fontFamily($font) {
+    @if map-has-key($fontFamilyMap, $font) {
+        @return map-get($fontFamilyMap, $font);
+    } @else {
+        @error "Invalid value passed to SASS fontFamily function: `#{$font}`. Valid families: `#{map-keys($fontFamilyMap)}`";
+    }
+}
+
+@function fontWeight($weight) {
+    @if map-has-key($fontWeightMap, $weight) {
+        @return map-get($fontWeightMap, $weight);
+    } @else {
+        @error "Invalid value passed to SASS fontWeight function: `#{$weight}`. Valid weights: `#{map-keys($fontWeightMap)}`";
+    }
+}
+
+@function lineHeight($lineHeight) {
+    @if map-has-key($lineHeightMap, $lineHeight) {
+        @return map-get($lineHeightMap, $lineHeight);
+    } @else {
+        @error "Invalid value passed to SASS lineHeight function: `#{$lineHeight}`. Valid heights: `#{map-keys($lineHeightMap)}`";
+    }
+}
+
+@function spacing($spacing, $base: "base") {
+    @if map-has-key($spacingMap, $spacing) {
+        @return map-get($spacingMap, $base) * map-get($spacingMap, $spacing);
+    } @else {
+        @error "Invalid value passed to SASS spacing function: `#{$spacing}`. Valid spacing: `#{map-keys($spacingMap)}`";
+    }
+}
+
+@function letterSpacing($spacing) {
+    @if map-has-key($letterSpacingMap, $spacing) {
+        @return map-get($letterSpacingMap, $spacing);
+    } @else {
+        @error "Invalid value passed to SASS spacing function: `#{$spacing}`. Valid spacing: `#{map-keys($letterSpacingMap)}`";
+    }
+}
+
+@function breakPoint($breakPoint) {
+    @if map-has-key($breakPointMap, $breakPoint) {
+        @return map-get($breakPointMap, $breakPoint);
+    } @else {
+        @error "Invalid value passed to SASS spacing function: `#{$breakPoint}`. Valid spacing: `#{map-keys($breakPointMap)}`";
+    }
+}
+
+@function breakPoint($opacity) {
+    @if map-has-key($opacityMap, $opacity) {
+        @return map-get($opacityMap, $opacity);
+    } @else {
+        @error "Invalid value passed to SASS spacing function: `#{$opacity}`. Valid spacing: `#{map-keys($opacityMap)}`";
+    }
+}

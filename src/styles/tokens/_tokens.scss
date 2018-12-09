@@ -1,0 +1,81 @@
+$colorMap: (
+    color1: rgba(189, 195, 167, 1),
+    color2: rgba(177, 171, 133, 1),
+    color3: rgba(114, 121, 117, 1),
+    color4: rgba(80, 74, 102, 1),
+    color5: rgba(124, 137, 147, 1,)
+);
+
+$fontSizeMap: (
+    xx-small:   .50em,
+    x-small:    .75em,
+    small:      .9em,
+    medium:     1em,
+    large:      1.5em,
+    x-large:    2em,
+    xx-large:   4em
+    );
+
+$fontWeightMap: (
+    light:  300,
+    medium: 400,
+    heavy:  700
+    );
+
+$lineHeightMap: (
+    x-small:    120%,
+    small:      130%,
+    medium:     140%,
+    large:      155%,
+    x-large:    165%
+    );
+
+$letterSpacingMap: (
+    normal: normal,
+    wide: .1em,
+    x-wide: .2em,
+    xx-wide: .3em
+    );
+
+$fontFamilyMap: (
+    primary-sans:           #{'Trade Gothic', Arial, sans-serif},
+    primary-sans-sub:       #{Oswald, Arial, sans-serif},
+    secondary-sans:         #{'Merriweather Sans', Arial, sans-serif},
+    secondary-sans-sub:     #{Oswald, Arial, sans-serif},
+    sans-alt:               #{Impact, Arial, sans-serif},
+    serif:                  #{Merriweather, 'Times New Roman'},
+    serif-sub:              #{Georgia, 'Times New Roman'}
+    );
+
+$spacingMap: (
+    base:       20px,
+    quadruple:  4,
+    triple:     3,
+    double:     2,
+    single:     1,
+    half:       .5,
+    third:      .33333,
+    quarter:    .25,
+    fifth:      .2,
+    eighth:     .125
+    );
+
+$breakPointMap: (
+    xx-small:   320px,
+    x-small:    480px,
+    small:      786px,
+    medium:     980px,
+    large:      1280px,
+    x-large:    1920px,
+    xx-large:   2560px,
+    xxx-large:  3840px
+    );
+
+$opacityMap: (
+    lighest: .2,
+    lighter: .4,
+    medium: .5,
+    heavy: .6,
+    heavier: .8,
+    heaviest: .9
+)
