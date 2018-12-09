@@ -5,7 +5,7 @@ import React from 'react'
 const Header = ({ siteTitle }) => (
   <header class="header-container">
       <div class="logo">
-        <Link to="/"><span>Engage Ideas</span></Link>
+      <span><Link to="/">Engage Ideas</Link></span>
       </div>
       <nav>
         <ul>

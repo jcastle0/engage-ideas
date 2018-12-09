@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     border-bottom: 1px solid color("b");
     padding: 0 0;
-    background-color: color("color3")
+    background-color: color("color3");
 }
 
 .logo {
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo a {
     text-decoration: none;
-    color: color("w")
+    color: color("w");
 }
 
 .logo a:hover {
@@ -67,15 +67,18 @@ li a:hover {
     .header-container {
         flex-direction: row;
         justify-content: space-between;
+        height: 75px;
     }
 
     .logo {
         margin-top: 0;
         margin-left: 2em;
+        height: 75px;
+        display: table;
     }
 
     .logo span {
-        display: inline-block;
+        display: table-cell;
         vertical-align: middle;
     }
 
@@ -88,4 +91,36 @@ li a:hover {
         padding: 0 2.5em 0 0;
         font-size: fontSize("large");
     }
+}
+
+@media screen and (min-width: breakPoint("medium")) {
+    .logo {
+        margin-left: 10%;
+    }
+    nav {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (min-width: breakPoint("large")) {
+    .header-container {
+        height: 150px;
+    }
+
+    .logo {
+        margin-left: 20%;
+        font-size: fontSize("xxx-large");
+        height: 150px;
+        display: table;
+    }
+
+    .logo span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    nav {
+        margin: 0 15%;
+    }
+    
 }
