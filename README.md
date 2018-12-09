@@ -3,10 +3,12 @@
 <ul>
 <li>Added support for markdown pages and slugs in src/pages</li>
 <li>Added SASS Plugin</li>
+<li>Added design token functionality</li>
+<li>Added Google Fonts</li>
 </ul></p>
 <p>To Do:
 <ul>
-<li>Move blog pages to a blog subfolder</li>
+<li>Move blog pages to a blog subfolder (or look into using tags)</li>
 <li>Work on layout & component concepts</li>
 </ul></p>
 

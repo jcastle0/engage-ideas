@@ -1,2 +1,13 @@
 @import 'normalize/normalize';
 @import 'tokens/functions';
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: letterSpacing("wide");
+}
