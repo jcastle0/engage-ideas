@@ -4,7 +4,7 @@
     @if map-has-key($colorMap, $color) {
         @return map-get($colorMap, $color);
     } @else {
-        @error "Invalid value passed to SASS fontSize function: `#{$color}`. Valid sizes: `#{map-keys($colorMap)}`";
+        @error "Invalid value passed to SASS fontSize function: `#{$color}`. Valid colors: `#{map-keys($colorMap)}`";
     }
 }
 
@@ -64,10 +64,10 @@
     }
 }
 
-@function breakPoint($opacity) {
+@function opacity($opacity) {
     @if map-has-key($opacityMap, $opacity) {
         @return map-get($opacityMap, $opacity);
     } @else {
-        @error "Invalid value passed to SASS spacing function: `#{$opacity}`. Valid spacing: `#{map-keys($opacityMap)}`";
+        @error "Invalid value passed to SASS opacity function: `#{$opacity}`. Valid spacing: `#{map-keys($opacityMap)}`";
     }
 }

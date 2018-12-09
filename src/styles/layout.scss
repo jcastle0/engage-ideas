@@ -4,10 +4,88 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro');
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    font-family: fontFamily("primary-sans");
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: fontFamily("primary-serif");
     letter-spacing: letterSpacing("wide");
+}
+
+/* Nav styles inspired by this tutorial: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid color("b");
+    padding: 0 0;
+    background-color: color("color3")
+}
+
+.logo {
+    text-align: center;
+    margin-top: 15px;
+    font-size: fontSize("xx-large");
+    font-family: fontFamily("primary-serif")
+}
+
+.logo a {
+    text-decoration: none;
+    color: color("w")
+}
+
+.logo a:hover {
+    color: color("color4");
+}
+
+nav {
+    margin: 0 auto;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 2em 0 0;
+    font-size: fontSize("large");
+}
+
+header ul li a {
+    text-decoration: none;
+    color: color("color1");
+}
+
+li a:active {
+    color: color("b");
+    border-bottom: 1px solid color("b");
+    font-weight: fontWeight("light");
+}
+
+li a:hover {
+    color: color("color2");
+}
+
+@media screen and (min-width: breakPoint("small")) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-top: 0;
+        margin-left: 2em;
+    }
+
+    .logo span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    nav {
+        align-self: center;
+        margin: 0 0 0 auto;
+    }
+
+    header ul li {
+        padding: 0 2.5em 0 0;
+        font-size: fontSize("large");
+    }
 }

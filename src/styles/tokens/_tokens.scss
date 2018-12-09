@@ -3,7 +3,9 @@ $colorMap: (
     color2: rgba(177, 171, 133, 1),
     color3: rgba(114, 121, 117, 1),
     color4: rgba(80, 74, 102, 1),
-    color5: rgba(124, 137, 147, 1,)
+    color5: rgba(124, 137, 147, 1,),
+    w: rgba(255, 255, 255, 1),
+    b: rgba(0, 0, 0, 1),
 );
 
 $fontSizeMap: (
@@ -11,9 +13,10 @@ $fontSizeMap: (
     x-small:    .75em,
     small:      .9em,
     medium:     1em,
-    large:      1.5em,
-    x-large:    2em,
-    xx-large:   4em
+    large:      1.25em,
+    x-large:    1.5em,
+    xx-large:   2em,
+    xxx-large: 2.5em
     );
 
 $fontWeightMap: (
@@ -38,13 +41,8 @@ $letterSpacingMap: (
     );
 
 $fontFamilyMap: (
-    primary-sans:           #{'Trade Gothic', Arial, sans-serif},
-    primary-sans-sub:       #{Oswald, Arial, sans-serif},
-    secondary-sans:         #{'Merriweather Sans', Arial, sans-serif},
-    secondary-sans-sub:     #{Oswald, Arial, sans-serif},
-    sans-alt:               #{Impact, Arial, sans-serif},
-    serif:                  #{Merriweather, 'Times New Roman'},
-    serif-sub:              #{Georgia, 'Times New Roman'}
+    primary-sans:           #{'Source Sans Pro', sans-serif},
+    primary-serif:          #{'Playfair Display', serif},
     );
 
 $spacingMap: (
