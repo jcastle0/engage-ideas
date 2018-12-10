@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Footer from './footer'
 import '../styles/layout.scss'
 
 const Layout = ({ children }) => (
@@ -28,10 +29,12 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
+        <div class="site">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-        >
+        <main>
           {children}
+        </main>
+        <Footer siteTitle={data.site.siteMetadata.title} />
         </div>
       </>
     )}

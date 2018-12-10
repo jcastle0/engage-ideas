@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = ({ siteTitle }) => (
-  <header class="header-container">
+  <header>
+    <div class="header-container">
       <div class="logo">
       <span><Link to="/">Engage Ideas</Link></span>
       </div>
@@ -14,7 +15,8 @@ const Header = ({ siteTitle }) => (
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 )
 
 Header.propTypes = {
