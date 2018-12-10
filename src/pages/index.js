@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <h1>Engage Ideas</h1>
-    <p>Working on building my new site.</p>
+    <p>Making progress...</p>
   </Layout>
 )
 
