@@ -14,7 +14,6 @@ export default ( props ) => {
         return (
           <div key={i}>
             <p>{resumeData.Name}</p>
-            <p>{resumeData.Experience.Title}</p>
           </div>
         )
       }
