@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: letterSpacing("wide");
 }
 
-/* Nav styles inspired by this tutorial: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 */
 .header-container {
     display: flex;
     flex-direction: column;
@@ -123,8 +122,7 @@ footer li a:hover {
     }
 
     .logo {
-        margin-top: 0;
-        margin-left: 2em;
+        margin: 0;
         height: 75px;
         display: table;
     }
@@ -142,6 +140,16 @@ footer li a:hover {
     header ul li {
         padding: 0 2.5em 0 0;
         font-size: fontSize("large");
+    }
+
+    header ul li:last-child {
+        padding: 0;
+    }
+
+    .header-container,
+    .footer-container {
+        width: 700px;
+        margin: 0 auto;
     }
 
     footer {
@@ -173,17 +181,9 @@ footer li a:hover {
 }
 
 @media screen and (min-width: breakPoint("medium")) {
-    .header-container {
-        margin: 0 auto;
-    }
-
     .header-container,
     .footer-container {
         width: 900px;
-    }
-
-    header .header-container nav ul li:last-child {
-        padding-right: 0;
     }
     
 }
@@ -205,12 +205,13 @@ footer li a:hover {
     .logo {
         font-size: fontSize("xxx-large");
         height: 150px;
-        display: table;
     }
+}
 
-    .logo span {
-        display: table-cell;
-        vertical-align: middle;
+@media screen and (min-width: breakPoint("x-large")) {
+    
+    .header-container,
+    .footer-container {
+        width: 1300px;
     }
-   
 }
