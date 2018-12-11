@@ -1,0 +1,39 @@
+[{
+    "Name": "James Castle",
+    "Experience": [
+        {
+            "Title": "Lead Instructional Designer",
+            "Organization": "University of Georgia, Office of Online Learning",
+            "Start Date": "2016",
+            "End Date": "Present",
+            "Description": "Coordinate major instructional design efforts of the Office of Online Learning. Provide leadership for data & analytics efforts."
+        },
+        {
+            "Title": "Instructional Designer",
+            "Organization": "University of Georgia, Office of Online Learning",
+            "Start Date": "2013",
+            "End Date": "2016",
+            "Description": "Work with faculty to create online courses and programs. Coordinate instructional technology and analytics efforts."
+        },
+        {
+            "Title": "Instructional Technology Specialist",
+            "Organization": "Clarke County School District",
+            "Start Date": "2008",
+            "End Date": "2013",
+            "Description": "Supported instruction via the integration of technology in grades 6-12."
+        },
+        {
+            "Title": "Teacher",
+            "Organization": "W.R. Coile Middle School",
+            "Start Date": "2005",
+            "End Date": "2008",
+            "Description": "Taught interdisciplinary journalism class with a focus on having students demonstrate learning through digital literacy skills."
+        },
+        {
+            "Title": "Instructional Technology Specialist",
+            "Organization": "Clarke County School District",
+            "Start Date": "2002",
+            "End Date": "2005",
+            "Description": "Served patrol unit as mandated state police officer."
+    }]
+}]
