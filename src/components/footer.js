@@ -4,14 +4,14 @@ import React from 'react'
 
 const Footer = ({ siteTitle }) => (
     <footer>
-        <div class="footer-container">
-            <div class="footer-nav">
+        <div className="footer-container">
+            <div className="footer-nav">
                 <ul>
                     <li><Link to="/about">About Me</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
-            <div class="copyright">
+            <div className="copyright">
                 <p>&copy; James Castle</p>
             </div>
         </div>
