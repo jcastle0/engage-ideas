@@ -8,7 +8,6 @@ Maybe this will help: https://stackoverflow.com/questions/49299309/gatsbyjs-gett
 
 export default ( props ) => {
   const resume = props.data.allResumeJson.edges;
-  const experience = props.data.allResumeJson.edges.node.experience;
   return (
     <Layout>
       {resume.map((r, i) => {
