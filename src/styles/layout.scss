@@ -109,6 +109,23 @@ footer li a:hover {
     padding-bottom: 20px;
 }
 
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin: 0 25px;
+}
+
+.contact-wrapper {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+.experience-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
 
 
 @media screen and (min-width: breakPoint("small")) {
