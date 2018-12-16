@@ -1,5 +1,10 @@
 [{
     "Name": "James Castle",
+    "Address_Street": "1480 Arborwood Ridge",
+    "Address_City": "Bishop, GA 30621",
+    "Email": "jcastle0@gmail.com",
+    "Email_Link": "mailto:jcastle0@gmail.com",
+    "Phone": "706-296-9645",
     "Experience": [
         {
             "Title": "Lead Instructional Designer",
@@ -30,10 +35,48 @@
             "Description": "Taught interdisciplinary journalism class with a focus on having students demonstrate learning through digital literacy skills."
         },
         {
-            "Title": "Instructional Technology Specialist",
-            "Organization": "Clarke County School District",
+            "Title": "Police Officer",
+            "Organization": "University of Georgia",
             "Start Date": "2002",
             "End Date": "2005",
             "Description": "Served patrol unit as mandated state police officer."
-    }]
+    }],
+    "Education": [
+        {
+            "School": "Name",
+            "Degree": "Name",
+            "Area": "Name",
+            "Year": "Year"
+        },
+        {
+            "School": "Name",
+            "Degree": "Name",
+            "Area": "Name",
+            "Year": "Year"
+        },
+        {
+            "School": "Name",
+            "Degree": "Name",
+            "Area": "Name",
+            "Year": "Year"
+        },
+        {
+            "School": "Name",
+            "Degree": "Name",
+            "Area": "Name",
+            "Year": "Year"
+        }
+    ],
+    "Skills": [
+        "Backwards Learning Design",
+        "Google Apps for Education",
+        "Google Apps Script",
+        "Python for Data Science",
+        "HTML/CSS/Javascript",
+        "Learning Management Systems",
+        "Web APIs",
+        "Adobe Illustrator",
+        "Adobe Indesign",
+        "Adobe Photoshop"
+    ]
 }]

@@ -18,10 +18,11 @@ const Experience = () => (
     `}
     render={data => (
         <div className="experience-wrapper">
+            <h2>Professional Experience</h2>
             {data.resumeJson.Experience.map(( exp , index ) => (
                 <div className="experience" key={index}>
-                    <h2>{exp.Title} (<span className="start-date">{exp.Start_Date}</span> - <span className="end-date">{exp.End_Date}</span>)</h2>
-                    <h3>{exp.Organization}</h3>
+                    <h3>{exp.Title} (<span className="start-date">{exp.Start_Date}</span> - <span className="end-date">{exp.End_Date}</span>)</h3>
+                    <h4>{exp.Organization}</h4>
                     <p>{exp.Description}</p>
                 </div>
             ))}
