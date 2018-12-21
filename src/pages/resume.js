@@ -6,20 +6,17 @@ import Layout from '../components/layout'
 Maybe this will help: https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api
  */
 
-export default ( props ) => {
-  const resume = props.data.allResumeJson.edges;
+export default ({data}) => {
+  const d = data.allResumeJson.edges;
   return (
     <Layout>
-      {resume.map((r, i) => {
-        const resumeData = r.node;
-        console.log(resumeData)
-        return (
-          <div key={i}>
-            <p>{resumeData.Name}</p>
-          </div>
-        )
-      }
-        )}
+      <h1>test</h1>
+      {d.map(({ node }) =>
+        <h1 key={node.Name}>{node.Name}</h1>,
+      )}
+
+
+
     </Layout>
   )
 }
