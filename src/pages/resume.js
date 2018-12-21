@@ -1,41 +1,22 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+// import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Contact from '../components/resumeContact'
+import Experience from '../components/resumeExperience'
+import Skills from '../components/resumeSkills'
 
 /* Trying to figure out how to iterate over array value in JSON file
 Maybe this will help: https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api
  */
 
-export default ({data}) => {
-  const d = data.allResumeJson.edges;
+export default () => {
   return (
     <Layout>
-      <h1>test</h1>
-      {d.map(({ node }) =>
-        <h1 key={node.Name}>{node.Name}</h1>,
-      )}
-
-
-
+      <div className="page-wrapper">
+        <Contact />
+        <Experience />
+        <Skills />
+      </div>
     </Layout>
   )
 }
-
-export const query = graphql`
-  query {
-    allResumeJson {
-      edges {
-        node {
-          Name
-          Experience {
-            Title
-            Organization
-            Start_Date
-            End_Date
-            Description
-          }
-        }
-      }
-    }
-  }
-`

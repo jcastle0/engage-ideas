@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: letterSpacing("wide");
 }
 
+h2 {
+    margin-bottom: 10px;
+}
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -107,6 +111,72 @@ footer li a:hover {
 
 .copyright p {
     padding-bottom: 20px;
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin: 0 25px;
+}
+
+.contact-wrapper {
+    grid-column: 1 /- 1;
+    grid-row: 1;
+    text-align: center;
+}
+
+.contact-wrapper h1 {
+    margin-bottom: 10px;
+}
+
+.contact-wrapper p {
+    margin: 0;
+}
+
+.experience-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.experience-wrapper h2 {
+    text-align: center;
+}
+
+.experience {
+    padding: 0 20px;
+    border-bottom: 1px solid color("color5");
+}
+
+.experience h3 {
+    font-size: fontSize("large");
+    margin: 25px 0 5px 0;
+}
+
+.experience h4 {
+    margin: 0;
+    font-size: fontSize("medium");
+    color: color("color4");
+}
+
+.experience p {
+    margin: 15px 0 25px 0;
+}
+
+.skills-wrapper {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.skill-list {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.skill {
+    line-height: lineHeight("xx-large");
+    font-size: fontSize("medium");
+    display: block;
 }
 
 
