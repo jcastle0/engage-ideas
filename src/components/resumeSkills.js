@@ -12,7 +12,7 @@ const Skills = () => (
     `}
     render={data => (
         <div className="skills-wrapper">
-           <h2>My Skills</h2>
+           <h2>Skills &amp; Tools</h2>
            <ul className="skill-list">
             {data.resumeJson.Skills.map(( skill , index ) => (
                 <li className="skill" key={index}>{skill}</li>

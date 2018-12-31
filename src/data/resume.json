@@ -43,28 +43,28 @@
     }],
     "Education": [
         {
-            "School": "Name",
-            "Degree": "Name",
-            "Area": "Name",
-            "Year": "Year"
+            "School": "University of Georgia",
+            "Degree": "Ph.D.",
+            "Area": "Learning, Design, & Technology",
+            "Year": "In Progress"
         },
         {
-            "School": "Name",
-            "Degree": "Name",
-            "Area": "Name",
-            "Year": "Year"
+            "School": "Georgia Southern University",
+            "Degree": "Ed.S.",
+            "Area": "Instructional Technology",
+            "Year": "2015"
         },
         {
-            "School": "Name",
-            "Degree": "Name",
-            "Area": "Name",
-            "Year": "Year"
+            "School": "University of Georgia",
+            "Degree": "M.Ed.",
+            "Area": "Human Resources & Organizational Development",
+            "Year": "2006"
         },
         {
-            "School": "Name",
-            "Degree": "Name",
-            "Area": "Name",
-            "Year": "Year"
+            "School": "University of Georgia",
+            "Degree": "ABJ",
+            "Area": "Public Relations",
+            "Year": "2002"
         }
     ],
     "Skills": [
@@ -78,5 +78,59 @@
         "Adobe Illustrator",
         "Adobe Indesign",
         "Adobe Photoshop"
+    ],
+    "Certifications": [
+        "Georgia Educator, Grades 6-12 English",
+        "Georgia Educator, Grades 4-8 Language Arts",
+        "Quality Matters, APPQMR Facilitator",
+        "Georgia Police, Basic POST Certification"
+    ],
+    "Projects": [
+        {
+            "Organization": "Name",
+            "Title": "Name",
+            "Year": "Year",
+            "Description": "Text"
+        },
+        {
+            "Organization": "Name",
+            "Title": "Name",
+            "Year": "Year",
+            "Description": "Text"
+        },
+        {
+            "Organization": "Name",
+            "Title": "Name",
+            "Year": "Year",
+            "Description": "Text"
+        },
+        {
+            "Organization": "Name",
+            "Title": "Name",
+            "Year": "Year",
+            "Description": "Text"
+        }
+    ],
+    "Presentations": [
+        {
+            "Venue": "Name",
+            "Title": "Name",
+            "Year": "Year"
+        },
+        {
+            "Venue": "Name",
+            "Title": "Name",
+            "Year": "Year"
+        },
+        {
+            "Venue": "Name",
+            "Title": "Name",
+            "Year": "Year"
+        },
+        {
+            "Venue": "Name",
+            "Title": "Name",
+            "Year": "Year"
+        }
     ]
 }]

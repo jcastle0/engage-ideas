@@ -134,18 +134,24 @@ footer li a:hover {
     margin: 0;
 }
 
+.experience-wrapper, .skills-wrapper, .education-wrapper, 
+.certifications-wrapper, .projects-wrapper, .presentations-wrapper {
+    padding-bottom: 20px;
+    border-bottom: 1px solid color("color5");
+}
+
 .experience-wrapper {
     grid-column: 1 / -1;
     grid-row: 2;
 }
 
-.experience-wrapper h2 {
+h2 {
     text-align: center;
+    margin: 0;
 }
 
 .experience {
     padding: 0 20px;
-    border-bottom: 1px solid color("color5");
 }
 
 .experience h3 {
@@ -153,7 +159,7 @@ footer li a:hover {
     margin: 25px 0 5px 0;
 }
 
-.experience h4 {
+.experience h4, .education h4 {
     margin: 0;
     font-size: fontSize("medium");
     color: color("color4");
@@ -165,18 +171,52 @@ footer li a:hover {
 
 .skills-wrapper {
     grid-column: 1 / -1;
+    grid-row: 3;
     text-align: center;
 }
 
-.skill-list {
+.skill-list, .certifications-list {
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 20px 0 0 0;
 }
 
 .skill {
     line-height: lineHeight("xx-large");
     font-size: fontSize("medium");
     display: block;
+}
+
+.education-wrapper{
+    grid-column: 1 / -1;
+    grid-row: 4;
+}
+
+.education h3 {
+    font-style: italic;
+    margin: 25px 0 5px 0;
+}
+
+.certifications-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    text-align: center;
+}
+
+.certification {
+    display: block;
+    line-height: lineHeight("x-large");
+    font-size: fontSize("medium");
+
+}
+
+.projects-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 6;
+}
+
+.presentations-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 7;
 }
 
 
