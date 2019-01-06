@@ -87,50 +87,111 @@
     ],
     "Projects": [
         {
-            "Organization": "Name",
-            "Title": "Name",
-            "Year": "Year",
-            "Description": "Text"
+            "Organization": "University of Georgia",
+            "Title": "Group Feedback Application",
+            "Year": "2018",
+            "Description": "Designed and implemented a system for student-level group feedback based on Brightspace, Google Drive, and Polr."
         },
         {
-            "Organization": "Name",
-            "Title": "Name",
-            "Year": "Year",
-            "Description": "Text"
+            "Organization": "Affordable Learning Georgia",
+            "Title": "Establishing an Open Content Platform",
+            "Year": "2018",
+            "Description": "Led effort to acquire grant funds ($30,000) to establish an OER authoring tool for UGA based on the open source Pressbooks platform. Coordinated project with subject matter experts and technical developers."
         },
         {
-            "Organization": "Name",
-            "Title": "Name",
-            "Year": "Year",
-            "Description": "Text"
+            "Organization": "University of Georgia",
+            "Title": "Online Learning Fellows",
+            "Year": "2018",
+            "Description": "Project Lead and Coordinator. Total project budget: $157,500"
         },
         {
-            "Organization": "Name",
-            "Title": "Name",
-            "Year": "Year",
-            "Description": "Text"
+            "Organization": "University of Georgia",
+            "Title": "Online Walking Application",
+            "Year": "2018",
+            "Description": "Coordinated the development of an app that uses the Fitbit API to monitor student heart rates for an online physical education course."
+        },
+        {
+            "Organization": "University of Georgia",
+            "Title": "Online Learning Fellows",
+            "Year": "2017",
+            "Description": "Project Lead and Coordinator. Total project budget: $55,000"
+        },
+        {
+            "Organization": "University of Georgia",
+            "Title": "Pop Music Portfolio & Peer Review System",
+            "Year": "2016",
+            "Description": "Built system for students to share portfolio work and provide peer review of materials using Brightspace, Google Drive, and Github."
+        },
+        {
+            "Organization": "University of Georgia",
+            "Title": "Online Learning Fellows",
+            "Year": "2016",
+            "Description": "Project Lead and Coordinator. Total project budget: $180,000"
+        },
+        {
+            "Organization": "University System of Georgia",
+            "Title": "Explore the Beyond",
+            "Year": "2015",
+            "Description": "Provided instructional design services and consultation for a massively open online course."
+        },
+        {
+            "Organization": "Affordable Learning Georgia",
+            "Title": "Open EDUC",
+            "Year": "2014",
+            "Description": "Assisted with the creation of open educational resources for two educational foundations courses for UGA’s College of Education."
+        },
+        {
+            "Organization": "Clarke County School District",
+            "Title": "District-Wide Curriculum Portal",
+            "Year": "2012",
+            "Description": "Led design and development of a collaborative curriculum portal built using Google Apps for Education."
         }
     ],
     "Presentations": [
         {
-            "Venue": "Name",
-            "Title": "Name",
-            "Year": "Year"
+            "Venue": "Distance Learning Administration",
+            "Title": "Using Media and LMS Data in a Course Revision",
+            "Year": "2017"
         },
         {
-            "Venue": "Name",
-            "Title": "Name",
-            "Year": "Year"
+            "Venue": "Distance Learning Administration",
+            "Title": "Data Driven Online Course Revision and Review",
+            "Year": "2017"
         },
         {
-            "Venue": "Name",
-            "Title": "Name",
-            "Year": "Year"
+            "Venue": "University of Georgia",
+            "Title": "Designing and Teaching Online Courses",
+            "Year": "2017"
         },
         {
-            "Venue": "Name",
-            "Title": "Name",
-            "Year": "Year"
+            "Venue": "Association for Educational Communications and Technology",
+            "Title": "Uncovering LMS Data: Using an API to Access Information about Learning",
+            "Year": "2016"
+        },
+        {
+            "Venue": "University of Georgia",
+            "Title": "Innovation in Teaching with Technology Academy: Online Teaching",
+            "Year": "2015"
+        },
+        {
+            "Venue": "University of Georgia",
+            "Title": "UGA CTL Teaching and Learning Pedagogy Workshop: Collaboration with Google Apps",
+            "Year": "2013"
+        },
+        {
+            "Venue": "University of Georgia",
+            "Title": "Conducting Asynchronous Online Discussions",
+            "Year": "2013"
+        },
+        {
+            "Venue": "Georgia Educational Technology Conference",
+            "Title": "Managing a Curriculum Portal with Google Apps",
+            "Year": "2012"
+        },
+        {
+            "Venue": "Georgia Educational Technology Conference",
+            "Title": "Google Apps for Data Teams",
+            "Year": "2011"
         }
     ]
 }]

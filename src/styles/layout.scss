@@ -18,15 +18,60 @@ body {
     flex-grow: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: fontFamily("primary-serif");
-    letter-spacing: letterSpacing("wide");
+/* Grid Layout Start */
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin: 0 25px;
 }
 
-h2 {
-    margin-bottom: 10px;
+.contact-wrapper {
+    grid-column: 1 /- 1;
+    grid-row: 1;
+    text-align: center;
 }
 
+.experience-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.skills-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    text-align: center;
+}
+
+.education-wrapper{
+    grid-column: 1 / -1;
+    grid-row: 4;
+}
+
+.certifications-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    text-align: center;
+}
+
+.projects-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 6;
+}
+
+.presentations-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 7;
+}
+
+.experience-wrapper, .skills-wrapper, .education-wrapper, 
+.certifications-wrapper, .projects-wrapper, .presentations-wrapper {
+    padding-bottom: 20px;
+    border-bottom: 1px solid color("color5");
+}
+/* Grid Layout End */
+
+/* Header Start */
 .header-container {
     display: flex;
     flex-direction: column;
@@ -78,7 +123,9 @@ header li a:active {
 header li a:hover {
     color: color("color2");
 }
+/* Header End */
 
+/* Footer Start */
 footer {
     text-align: center;
     background-color: color("color1");
@@ -112,67 +159,51 @@ footer li a:hover {
 .copyright p {
     padding-bottom: 20px;
 }
+/* Footer End */
 
-.page-wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    margin: 0 25px;
+/* Header Styles Start */
+h1, h2, h3, h4, h5, h6 {
+    font-family: fontFamily("primary-serif");
+    letter-spacing: letterSpacing("wide");
 }
 
-.contact-wrapper {
-    grid-column: 1 /- 1;
-    grid-row: 1;
+h2 {
     text-align: center;
+    margin: 0 0 10px 0;
 }
 
 .contact-wrapper h1 {
     margin-bottom: 10px;
 }
 
-.contact-wrapper p {
-    margin: 0;
-}
-
-.experience-wrapper, .skills-wrapper, .education-wrapper, 
-.certifications-wrapper, .projects-wrapper, .presentations-wrapper {
-    padding-bottom: 20px;
-    border-bottom: 1px solid color("color5");
-}
-
-.experience-wrapper {
-    grid-column: 1 / -1;
-    grid-row: 2;
-}
-
-h2 {
-    text-align: center;
-    margin: 0;
-}
-
-.experience {
-    padding: 0 20px;
-}
-
 .experience h3 {
     font-size: fontSize("large");
-    margin: 25px 0 5px 0;
+    margin: 35px 0 5px 0;
 }
 
-.experience h4, .education h4 {
+.education h3, .project h3, .presentation h3 {
+    font-style: italic;
+    margin: 40px 0 5px 0;
+}
+
+.experience h4, .education h4, .project h4, .presentation h4 {
     margin: 0;
     font-size: fontSize("medium");
     color: color("color4");
 }
+/* Header Styles End */
 
-.experience p {
-    margin: 15px 0 25px 0;
+/* Component Styles Start */
+.experience {
+    padding: 0 20px;
 }
 
-.skills-wrapper {
-    grid-column: 1 / -1;
-    grid-row: 3;
-    text-align: center;
+.contact-wrapper p {
+    margin: 0;
+}
+
+.experience p, .project p {
+    margin: 15px 0 25px 0;
 }
 
 .skill-list, .certifications-list {
@@ -186,42 +217,80 @@ h2 {
     display: block;
 }
 
-.education-wrapper{
-    grid-column: 1 / -1;
-    grid-row: 4;
-}
-
-.education h3 {
-    font-style: italic;
-    margin: 25px 0 5px 0;
-}
-
-.certifications-wrapper {
-    grid-column: 1 / -1;
-    grid-row: 5;
-    text-align: center;
-}
-
 .certification {
     display: block;
     line-height: lineHeight("x-large");
     font-size: fontSize("medium");
 
 }
-
-.projects-wrapper {
-    grid-column: 1 / -1;
-    grid-row: 6;
-}
-
-.presentations-wrapper {
-    grid-column: 1 / -1;
-    grid-row: 7;
-}
-
-
+/* Component Styles End */
 
 @media screen and (min-width: breakPoint("small")) {
+
+    /* Grid Layout Start */
+    .page-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        margin: 0 25px;
+    }
+
+    .contact-wrapper {
+        grid-column: 1 /- 1;
+        grid-row: 1;
+        text-align: center;
+    }
+
+    .experience-wrapper {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+
+    .skills-wrapper {
+        grid-column: 1;
+        grid-row: 3;
+        grid-column-gap: 0;
+        text-align: center;
+    }
+
+    .education-wrapper{
+        grid-column: 1 / -1;
+        grid-row: 4;
+    }
+
+    .certifications-wrapper {
+        grid-column: 2;
+        grid-row: 3;
+        grid-column-gap: 0;
+        text-align: center;
+    }
+
+    .projects-wrapper {
+        grid-column: 1 / -1;
+        grid-row: 6;
+    }
+
+    .presentations-wrapper {
+        grid-column: 1 / -1;
+        grid-row: 7;
+    }
+
+    .experience-wrapper, .education-wrapper, .projects-wrapper, 
+    .presentations-wrapper {
+        padding-bottom: 20px;
+        border-bottom: 1px solid color("color5");
+    }
+    .certifications-wrapper, .skills-wrapper {
+        border-bottom: 0;
+    }
+
+    .education-wrapper {
+        padding-top: 20px;
+        border-top: 1px solid color("color5");
+    }
+    /* Grid Layout End */
+
+    /* Header Styles Start */
     .header-container {
         flex-direction: row;
         justify-content: space-between;
@@ -261,6 +330,8 @@ h2 {
         width: 700px;
         margin: 0 auto;
     }
+    /* Header Styles End */
+    /* Footer Styles Start */
 
     footer {
         text-align: left;
@@ -288,17 +359,33 @@ h2 {
     .copyright p {
         margin-bottom: 0;
     }
+    /* Footer Styles Start */
 }
 
 @media screen and (min-width: breakPoint("medium")) {
+    /* Grid Layout Start */
+        .education-wrapper{
+            grid-column: 1 / -1;
+            grid-row: 4;
+            text-align: center;
+        }
+    /* Grid Layout End */
+    /* Header & Footer Styles Start */
     .header-container,
     .footer-container {
         width: 900px;
     }
+    /* Header & Footer Styles End */
+    /* Heading Styles Start */
+    h2 {
+        font-size: fontSize("xx-large")
+    }
+    /* Heading Styles End */
     
 }
 
 @media screen and (min-width: breakPoint("large")) {
+    /* Header & Footer Styles Start */
     header {
         height: 150px;
     }
@@ -316,12 +403,14 @@ h2 {
         font-size: fontSize("xxx-large");
         height: 150px;
     }
+    /* Header & Footer Styles End */
 }
 
 @media screen and (min-width: breakPoint("x-large")) {
-    
+    /* Header & Footer Styles Start */
     .header-container,
     .footer-container {
         width: 1300px;
     }
+    /* Header & Footer Styles End */
 }
