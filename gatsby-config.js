@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Engage Ideas`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `James Castle`,
+      summary: `, an educator and designer from Georgia who likes analyzing data and building things for the web.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A site about education & design. I write about things that interest me.`,
+    siteUrl: `https://engageideas.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `thinknowalls`,
     },
   },
   plugins: [
