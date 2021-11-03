@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        
+      <p>The thoughts and ideas published on this blog are my own and are not endorsed by my employer.</p>
       </footer>
     </div>
   )
